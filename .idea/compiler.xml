@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="breakArbuz" />
+        <module name="ArbuzBreaker2000" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="breakArbuz" target="17" />
+      <module name="ArbuzBreaker2000" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
