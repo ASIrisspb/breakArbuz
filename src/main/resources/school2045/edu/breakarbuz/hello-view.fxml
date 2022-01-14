@@ -9,21 +9,21 @@
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
     <GridPane>
-       <Button fx:id="Lunka1" visible="false" GridPane.columnIndex="0" GridPane.RowIndex="0"/>
-       <Button fx:id="Lunka2" visible="true"  GridPane.columnIndex="1" GridPane.RowIndex="0"/>
-       <Button fx:id="Lunka3" visible="false" GridPane.columnIndex="2" GridPane.RowIndex="0"/>
-       <Button fx:id="Lunka4" visible="false" GridPane.columnIndex="3" GridPane.RowIndex="0"/>
-       <Button fx:id="Lunka5" visible="false" GridPane.columnIndex="0" GridPane.RowIndex="1"/>
-       <Button fx:id="Lunka6" visible="true"  GridPane.columnIndex="1" GridPane.RowIndex="1"/>
-       <Button fx:id="Lunka7" visible="false" GridPane.columnIndex="2" GridPane.RowIndex="1"/>
-       <Button fx:id="Lunka8" visible="false" GridPane.columnIndex="3" GridPane.RowIndex="1"/>
-       <Button fx:id="Lunka9" visible="false" GridPane.columnIndex="0" GridPane.RowIndex="2"/>
-       <Button fx:id="Lunka10" visible="true"  GridPane.columnIndex="1" GridPane.RowIndex="2"/>
-       <Button fx:id="Lunka11" visible="false" GridPane.columnIndex="2" GridPane.RowIndex="2"/>
-       <Button fx:id="Lunka12" visible="false" GridPane.columnIndex="3" GridPane.RowIndex="2"/>
-       <Button fx:id="Lunka13" visible="false" GridPane.columnIndex="0" GridPane.RowIndex="3"/>
-       <Button fx:id="Lunka14" visible="true"  GridPane.columnIndex="1" GridPane.RowIndex="3"/>
-       <Button fx:id="Lunka15" visible="false" GridPane.columnIndex="2" GridPane.RowIndex="3"/>
-       <Button fx:id="Lunka16" visible="false" GridPane.columnIndex="3" GridPane.RowIndex="3"/>
+       <Button onAction="#Lunka1" visible="false" GridPane.columnIndex="0" GridPane.RowIndex="0"/>
+       <Button onAction="#Lunka2" visible="true"  GridPane.columnIndex="1" GridPane.RowIndex="0"/>
+       <Button onAction="#Lunka3" visible="false" GridPane.columnIndex="2" GridPane.RowIndex="0"/>
+       <Button onAction="#Lunka4" visible="false" GridPane.columnIndex="3" GridPane.RowIndex="0"/>
+       <Button onAction="#Lunka5" visible="false" GridPane.columnIndex="0" GridPane.RowIndex="1"/>
+       <Button onAction="#Lunka6" visible="true"  GridPane.columnIndex="1" GridPane.RowIndex="1"/>
+       <Button onAction="#Lunka7" visible="false" GridPane.columnIndex="2" GridPane.RowIndex="1"/>
+       <Button onAction="#Lunka8" visible="false" GridPane.columnIndex="3" GridPane.RowIndex="1"/>
+       <Button onAction="#Lunka9" visible="false" GridPane.columnIndex="0" GridPane.RowIndex="2"/>
+       <Button onAction="#Lunka10" visible="true"  GridPane.columnIndex="1" GridPane.RowIndex="2"/>
+       <Button onAction="#Lunka11" visible="false" GridPane.columnIndex="2" GridPane.RowIndex="2"/>
+       <Button onAction="#Lunka12" visible="false" GridPane.columnIndex="3" GridPane.RowIndex="2"/>
+       <Button onAction="#Lunka13" visible="false" GridPane.columnIndex="0" GridPane.RowIndex="3"/>
+       <Button onAction="#Lunka14" visible="true"  GridPane.columnIndex="1" GridPane.RowIndex="3"/>
+       <Button onAction="#Lunka15" visible="false" GridPane.columnIndex="2" GridPane.RowIndex="3"/>
+       <Button onAction="#Lunka16" visible="false" GridPane.columnIndex="3" GridPane.RowIndex="3"/>
    </GridPane>
 </VBox>
