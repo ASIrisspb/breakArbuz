@@ -22,6 +22,7 @@ public class HelloController {
     public Button Lunka14;
     public Button Lunka15;
     public Button Lunka16;
+    public Button start;
 
     public void mainMethod()  {
         while (true) {
@@ -107,4 +108,9 @@ public class HelloController {
     protected void Lunka15() {System.out.println(15);}
     @FXML
     protected void Lunka16() {System.out.println(16);}
+    @FXML
+    protected void Start() {
+        start.setVisible(false);
+        mainMethod();
+    }
 }
