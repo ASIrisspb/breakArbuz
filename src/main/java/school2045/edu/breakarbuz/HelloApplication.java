@@ -16,7 +16,7 @@ public class HelloApplication extends Application {
         Scene scene = new Scene(fxmlLoader.load(), 600, 600);
         Image image = new Image("file:src/main/resources/hammer.png");
         scene.setCursor(new ImageCursor(image));
-        Image image01 = new Image("file:target/classes/school2045/edu/breakarbuz/icon01.jpg"); //иконка с именем
+        Image image01 = new Image("file:src/main/resources/icon01.jpg"); //иконка с именем
         stage.getIcons().add(image01); // иконка вывод
         stage.setTitle("ARBUZ BREAKER OMG");
         stage.setScene(scene);
