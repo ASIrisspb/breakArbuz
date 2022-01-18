@@ -4,26 +4,39 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="school2045.edu.breakarbuz.HelloController">
+<VBox alignment="CENTER" prefHeight="400.0" prefWidth="400.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="school2045.edu.breakarbuz.HelloController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
-    <GridPane>
-       <Button onAction="#Lunka1" fx:id="Lunka1" visible="true" GridPane.columnIndex="0" GridPane.RowIndex="0"/>
-       <Button onAction="#Lunka2" fx:id="Lunka2" visible="false"  GridPane.columnIndex="1" GridPane.RowIndex="0"/>
-       <Button onAction="#Lunka3" fx:id="Lunka3" visible="false" GridPane.columnIndex="2" GridPane.RowIndex="0"/>
-       <Button onAction="#Lunka4" fx:id="Lunka4" visible="false" GridPane.columnIndex="3" GridPane.RowIndex="0"/>
-       <Button onAction="#Lunka5" fx:id="Lunka5" visible="true" GridPane.columnIndex="0" GridPane.RowIndex="1"/>
-       <Button onAction="#Lunka6" fx:id="Lunka6" visible="false"  GridPane.columnIndex="1" GridPane.RowIndex="1"/>
-       <Button onAction="#Lunka7" fx:id="Lunka7" visible="false" GridPane.columnIndex="2" GridPane.RowIndex="1"/>
-       <Button onAction="#Lunka8" fx:id="Lunka8" visible="false" GridPane.columnIndex="3" GridPane.RowIndex="1"/>
-       <Button onAction="#Lunka9" fx:id="Lunka9" visible="true" GridPane.columnIndex="0" GridPane.RowIndex="2"/>
-       <Button onAction="#Lunka10" fx:id="Lunka10" visible="false"  GridPane.columnIndex="1" GridPane.RowIndex="2"/>
-       <Button onAction="#Lunka11" fx:id="Lunka11" visible="false" GridPane.columnIndex="2" GridPane.RowIndex="2"/>
-       <Button onAction="#Lunka12" fx:id="Lunka12" visible="false" GridPane.columnIndex="3" GridPane.RowIndex="2"/>
-       <Button onAction="#Lunka13" fx:id="Lunka13" visible="true" GridPane.columnIndex="0" GridPane.RowIndex="3"/>
-       <Button onAction="#Lunka14" fx:id="Lunka14" visible="false"  GridPane.columnIndex="1" GridPane.RowIndex="3"/>
-       <Button onAction="#Lunka15" fx:id="Lunka15" visible="false" GridPane.columnIndex="2" GridPane.RowIndex="3"/>
-       <Button onAction="#Lunka16" fx:id="Lunka16" visible="false" GridPane.columnIndex="3" GridPane.RowIndex="3"/>
+    <GridPane prefHeight="246.0" prefWidth="100.0">
+       <Button fx:id="Lunka1" minHeight="100.0" minWidth="100.0" onAction="#Lunka1" visible="false" GridPane.RowIndex="0" GridPane.columnIndex="0" />
+       <Button fx:id="Lunka2" minHeight="100.0" minWidth="100.0" onAction="#Lunka2" visible="false" GridPane.RowIndex="0" GridPane.columnIndex="1" />
+       <Button fx:id="Lunka3" minHeight="100.0" minWidth="100.0" onAction="#Lunka3" visible="false" GridPane.RowIndex="0" GridPane.columnIndex="2" />
+       <Button fx:id="Lunka4" minHeight="100.0" minWidth="100.0" onAction="#Lunka4" visible="false" GridPane.RowIndex="0" GridPane.columnIndex="3" />
+       <Button fx:id="Lunka5" minHeight="100.0" minWidth="100.0" onAction="#Lunka5" visible="false" GridPane.RowIndex="1" GridPane.columnIndex="0" />
+       <Button fx:id="Lunka6" minHeight="100.0" minWidth="100.0" onAction="#Lunka6" visible="false" GridPane.RowIndex="1" GridPane.columnIndex="1" />
+       <Button fx:id="Lunka7" minHeight="100.0" minWidth="100.0" onAction="#Lunka7" visible="false" GridPane.RowIndex="1" GridPane.columnIndex="2" />
+       <Button fx:id="Lunka8" minHeight="100.0" minWidth="100.0" onAction="#Lunka8" visible="false" GridPane.RowIndex="1" GridPane.columnIndex="3" />
+       <Button fx:id="Lunka9" minHeight="100.0" minWidth="100.0" onAction="#Lunka9" visible="false" GridPane.RowIndex="2" GridPane.columnIndex="0" />
+       <Button fx:id="Lunka10" minHeight="100.0" minWidth="100.0" onAction="#Lunka10" visible="false" GridPane.RowIndex="2" GridPane.columnIndex="1" />
+       <Button fx:id="Lunka11" minHeight="100.0" minWidth="100.0" onAction="#Lunka11" visible="false" GridPane.RowIndex="2" GridPane.columnIndex="2" />
+       <Button fx:id="Lunka12" minHeight="100.0" minWidth="100.0" onAction="#Lunka12" visible="false" GridPane.RowIndex="2" GridPane.columnIndex="3" />
+       <Button fx:id="Lunka13" minHeight="100.0" minWidth="100.0" onAction="#Lunka13" visible="false" GridPane.RowIndex="3" GridPane.columnIndex="0" />
+       <Button fx:id="Lunka14" minHeight="100.0" minWidth="100.0" onAction="#Lunka14" visible="false" GridPane.RowIndex="3" GridPane.columnIndex="1" />
+       <Button fx:id="Lunka15" minHeight="100.0" minWidth="100.0" onAction="#Lunka15" visible="false" GridPane.RowIndex="3" GridPane.columnIndex="2" />
+       <Button fx:id="Lunka16" minHeight="100.0" minWidth="100.0" onAction="#Lunka16" visible="false" GridPane.RowIndex="3" GridPane.columnIndex="3" />
+      <columnConstraints>
+         <ColumnConstraints minWidth="100.0" />
+         <ColumnConstraints minWidth="100.0" />
+         <ColumnConstraints minWidth="100.0" />
+         <ColumnConstraints minWidth="100.0" />
+      </columnConstraints>
+      <rowConstraints>
+         <RowConstraints minHeight="100.0" />
+         <RowConstraints minHeight="100.0" />
+         <RowConstraints minHeight="100.0" />
+         <RowConstraints minHeight="100.0" />
+      </rowConstraints>
    </GridPane>
+   <Button fx:id="start" layoutX="-1000.0" minHeight="50.0" minWidth="50.0" onAction="#Start" text="Start" />
 </VBox>
